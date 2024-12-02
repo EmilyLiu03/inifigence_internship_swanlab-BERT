@@ -115,3 +115,5 @@ for review in test_reviews:
 
 if text_list:
     wandb.log({"predictions": text_list})
+
+git rm --cached <WandB.py>
